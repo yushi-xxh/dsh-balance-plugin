@@ -19,7 +19,7 @@
 
 **不要提交：**
 
-- 使用问题（请到 [Discussions](https://github.com/Francis-Xavier-code/dsh-balance-plugin/discussions) 提问）
+- 使用问题（请到 [Discussions](https://github.com/yxxbc/dsh-balance-plugin/discussions) 提问）
 - 只贴截图不写描述的 Issue（会直接关闭）
 - 与本项目无关的内容
 

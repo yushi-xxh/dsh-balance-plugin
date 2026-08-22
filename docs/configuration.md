@@ -29,10 +29,10 @@
 **方式二：一键脚本更新**
 ```bash
 # macOS / Linux
-UPDATE=1 curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | bash
+UPDATE=1 curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | bash
 
 # Windows PowerShell
-$env:UPDATE='1'; irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+$env:UPDATE='1'; irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 ```
 
 ## 使用入口

@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 # dsh-balance-plugin 一键远程安装脚本
 # 用法:
-#   curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | bash
 # 可选: 指定 profile（默认 web）: DSH_PROFILE=tui curl -fsSL ... | bash
 # 可选: 强制更新: UPDATE=1 curl -fsSL ... | bash
 # 可选: 显式指定 registry 包（默认走 github: 协议，避免与 npm 上同名包混淆）:
-#   PKG=@Francis-Xavier-code/dsh-balance-plugin curl -fsSL ... | bash
+#   PKG=@yxxbc/dsh-balance-plugin curl -fsSL ... | bash
 set -euo pipefail
 
 export PATH="$HOME/.local/bin:$PATH"
 
 PKG="${PKG:-}"
 UPDATE="${UPDATE:-0}"
-GITHUB_SRC="github:Francis-Xavier-code/dsh-balance-plugin"
-TARBALL="https://github.com/Francis-Xavier-code/dsh-balance-plugin/archive/refs/heads/main.tar.gz"
+GITHUB_SRC="github:yxxbc/dsh-balance-plugin"
+TARBALL="https://github.com/yxxbc/dsh-balance-plugin/archive/refs/heads/main.tar.gz"
 PROFILE="${DSH_PROFILE:-web}"
-REMOTE_VERSION_URL="https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/package.json"
+REMOTE_VERSION_URL="https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/package.json"
 
 if ! command -v dsh >/dev/null 2>&1; then
   echo "✗ 未找到 dsh 命令（应位于 ~/.local/bin/dsh）" >&2
@@ -110,4 +110,4 @@ else
 fi
 echo "  请重启 DeepSeek Harness 生效。"
 echo "  验证组合: dsh --profile $PROFILE --dump-config | grep dsh-balance-plugin"
-echo "  卸载: curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.sh | bash"
+echo "  卸载: curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.sh | bash"

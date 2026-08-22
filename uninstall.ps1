@@ -1,6 +1,6 @@
 # dsh-balance-plugin 卸载脚本 (Windows PowerShell)
 # 用法:
-#   irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.ps1 | iex
+#   irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 

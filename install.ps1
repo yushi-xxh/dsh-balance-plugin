@@ -1,19 +1,19 @@
 # dsh-balance-plugin 一键远程安装脚本 (Windows PowerShell)
 # 用法:
-#   irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 # 可选: 指定 profile（默认 web）: $env:DSH_PROFILE='tui'; irm ... | iex
 # 可选: 强制更新: $env:UPDATE='1'; irm ... | iex
 # 可选: 显式指定 registry 包（默认走 github: 协议，避免与 npm 上同名包混淆）:
-#   $env:PKG='@Francis-Xavier-code/dsh-balance-plugin'; irm ... | iex
+#   $env:PKG='@yxxbc/dsh-balance-plugin'; irm ... | iex
 
 $ErrorActionPreference = "Stop"
 
 $PKG = if ($env:PKG) { $env:PKG } else { "" }
 $UPDATE = if ($env:UPDATE) { $env:UPDATE } else { "0" }
-$GITHUB_SRC = "github:Francis-Xavier-code/dsh-balance-plugin"
-$TARBALL = "https://github.com/Francis-Xavier-code/dsh-balance-plugin/archive/refs/heads/main.tar.gz"
+$GITHUB_SRC = "github:yxxbc/dsh-balance-plugin"
+$TARBALL = "https://github.com/yxxbc/dsh-balance-plugin/archive/refs/heads/main.tar.gz"
 $PROFILE = if ($env:DSH_PROFILE) { $env:DSH_PROFILE } else { "web" }
-$REMOTE_VERSION_URL = "https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/package.json"
+$REMOTE_VERSION_URL = "https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/package.json"
 
 # 检查 dsh 命令是否存在
 if (-not (Get-Command dsh -ErrorAction SilentlyContinue)) {
@@ -120,4 +120,4 @@ if ($NEW_VERSION) {
 }
 Write-Host "  请重启 DeepSeek Harness 生效。"
 Write-Host "  验证组合: dsh --profile $PROFILE --dump-config | Select-String dsh-balance-plugin"
-Write-Host "  卸载: irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.ps1 | iex"
+Write-Host "  卸载: irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.ps1 | iex"

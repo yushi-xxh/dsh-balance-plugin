@@ -9,7 +9,7 @@ body:
         感谢你提交 Bug Report！**请务必详细填写以下信息，否则Issue将被关闭。**
 
         > **重要提醒：**
-        > - 请先更新到最新版本：`curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | UPDATE=1 bash`
+        > - 请先更新到最新版本：`curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | UPDATE=1 bash`
         > - 旧版本的问题可能已修复，请勿提交过期版本的Issue
         > - 截图是必须的，没有截图的Issue将不予处理
 
@@ -138,7 +138,7 @@ body:
     attributes:
       label: 提交前确认（必填）
       options:
-        - label: 我已阅读 [贡献指南](https://github.com/Francis-Xavier-code/dsh-balance-plugin/blob/main/.github/CONTRIBUTING.md)，了解如何正确提交 Issue
+        - label: 我已阅读 [贡献指南](https://github.com/yxxbc/dsh-balance-plugin/blob/main/.github/CONTRIBUTING.md)，了解如何正确提交 Issue
           required: true
         - label: 我已搜索过现有 Issues，没有重复的问题
           required: true

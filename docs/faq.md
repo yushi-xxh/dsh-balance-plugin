@@ -47,8 +47,8 @@ A：有两种方式：
 A：使用一键卸载脚本：
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.sh | bash
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.ps1 | iex
 ```

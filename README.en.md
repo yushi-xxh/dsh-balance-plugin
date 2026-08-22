@@ -5,8 +5,8 @@
 **A DeepSeek Harness (DSH) plugin** — balance monitoring · official top-up link · Miyu-style usage statistics · third-party plugin manager
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-8d7ce4.svg)](https://github.com/Francis-Xavier-code/dsh-balance-plugin)
-[![version](https://img.shields.io/badge/version-1.3.0-b08427.svg)](https://github.com/Francis-Xavier-code/dsh-balance-plugin)
+[![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-8d7ce4.svg)](https://github.com/yxxbc/dsh-balance-plugin)
+[![version](https://img.shields.io/badge/version-1.3.0-b08427.svg)](https://github.com/yxxbc/dsh-balance-plugin)
 
 [✨ Features](#-features) · [📥 Install](#-install) · [🖼 Screenshots](#-screenshots) · [❓ FAQ](#-faq) · [📖 Docs](#-docs) · [🌐 中文](README.md)
 
@@ -41,12 +41,12 @@
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 ```
 
 **Restart DeepSeek Harness** after installation — three icon buttons appear on the right of the input box. Use `DSH_PROFILE=<name>` to target another profile.
@@ -55,11 +55,11 @@ irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/mai
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | UPDATE=1 bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | UPDATE=1 bash
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
-# Then in PowerShell run: $env:UPDATE='1'; irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
+# Then in PowerShell run: $env:UPDATE='1'; irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 ```
 
 Or click "Check Update" → "Update" in the DSH plugin panel (recommended).
@@ -68,10 +68,10 @@ Or click "Check Update" → "Update" in the DSH plugin panel (recommended).
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.sh | bash
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.ps1 | iex
 ```
 
 ---
@@ -130,8 +130,8 @@ See the [full FAQ](docs/faq.md) for more questions.
 
 ## 👥 Contributors
 
-<a href="https://github.com/Francis-Xavier-code/dsh-balance-plugin/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Francis-Xavier-code/dsh-balance-plugin" />
+<a href="https://github.com/yxxbc/dsh-balance-plugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yxxbc/dsh-balance-plugin" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -140,4 +140,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 [Black Cat (Francis-Xavier-code)](https://github.com/Francis-Xavier-code)
+[MIT](LICENSE) © 2026 [Black Cat (yxxbc)](https://github.com/yxxbc)

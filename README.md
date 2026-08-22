@@ -5,8 +5,8 @@
 **DeepSeek Harness（DSH）插件** —— 余额监控 · 官方充值入口 · Miyu 风格用量统计 · 三方插件管理
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-8d7ce4.svg)](https://github.com/Francis-Xavier-code/dsh-balance-plugin)
-[![version](https://img.shields.io/badge/version-1.3.0-b08427.svg)](https://github.com/Francis-Xavier-code/dsh-balance-plugin)
+[![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-8d7ce4.svg)](https://github.com/yxxbc/dsh-balance-plugin)
+[![version](https://img.shields.io/badge/version-1.3.0-b08427.svg)](https://github.com/yxxbc/dsh-balance-plugin)
 
 [✨ 功能](#-功能) · [📥 安装](#-安装) · [🖼 界面预览](#-界面预览) · [❓ FAQ](#-常见问题) · [📖 文档](#-文档) · [🌐 English](README.en.md)
 
@@ -41,12 +41,12 @@
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 ```
 
 安装完成后**重启 DeepSeek Harness**，输入框右侧出现三个图标按钮即生效。可用 `DSH_PROFILE=<name>` 指定其他 profile。
@@ -55,11 +55,11 @@ irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/mai
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.sh | UPDATE=1 bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.sh | UPDATE=1 bash
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
-# 然后在 PowerShell 中运行: $env:UPDATE='1'; irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
+# 然后在 PowerShell 中运行: $env:UPDATE='1'; irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/install.ps1 | iex
 ```
 
 或在 DSH 面板内点击「检查更新」→「更新」（推荐）。
@@ -68,10 +68,10 @@ irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/mai
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.sh | bash
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/Francis-Xavier-code/dsh-balance-plugin/main/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/yxxbc/dsh-balance-plugin/main/uninstall.ps1 | iex
 ```
 
 ---
@@ -130,8 +130,8 @@ A：npm 上存在他人同名包（`dsh-balance-plugin@0.1.0`），裸包名会�
 
 ## 👥 贡献者
 
-<a href="https://github.com/Francis-Xavier-code/dsh-balance-plugin/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Francis-Xavier-code/dsh-balance-plugin" />
+<a href="https://github.com/yxxbc/dsh-balance-plugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yxxbc/dsh-balance-plugin" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -140,4 +140,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## 📄 许可
 
-[MIT](LICENSE) © 2026 [Black Cat (Francis-Xavier-code)](https://github.com/Francis-Xavier-code)
+[MIT](LICENSE) © 2026 [Black Cat (yxxbc)](https://github.com/yxxbc)
